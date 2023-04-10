@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/dialog_image_view1"
+        android:layout_width="256dp"
+        android:layout_height="262dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="15dp"
+        android:scaleType="centerCrop"
+         />
+    <ImageView
+        android:id="@+id/dialog_image2"
+        android:layout_width="256dp"
+        android:layout_height="262dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="15dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/imgnotfound"
+        />
+
+    <LinearLayout
+        android:id="@+id/dialog_image_views_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/dialog_image_view1"
+        android:paddingTop="16dp">
+
+        <ImageView
+            android:id="@+id/frame_image_view_1"
+            android:layout_width="0dp"
+            android:layout_height="58dp"
+            android:layout_weight="1"
+            android:src="@drawable/user_image_frame_1" />
+
+        <ImageView
+            android:id="@+id/frame_image_view_2"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:src="@drawable/user_image_frame_2"/>
+
+        <ImageView
+            android:id="@+id/frame_image_view_3"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:src="@drawable/user_image_frame_3"/>
+
+        <ImageView
+            android:id="@+id/frame_image_view_4"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:src="@drawable/user_image_frame_4"/>
+    </LinearLayout>
+
+</RelativeLayout>
